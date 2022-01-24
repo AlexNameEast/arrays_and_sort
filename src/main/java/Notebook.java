@@ -1,8 +1,42 @@
+import sort.SelectionSort;
+
 public class Notebook {
     private int price;
     private int ram;
     private String model;
     private int modelNumber;
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getModelNumber() {
+        return modelNumber;
+    }
+
+    public void setModelNumber(int modelNumber) {
+        this.modelNumber = modelNumber;
+    }
 
     @Override
     public String toString() {
@@ -35,4 +69,5 @@ public class Notebook {
                 break;
         }
     }
+
 }
